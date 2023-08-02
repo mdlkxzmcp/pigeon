@@ -9,6 +9,7 @@
 - Support HTTPoison 2.0. ([#236](https://github.com/codedge-llc/pigeon/pull/236))
 - Add ExpiredToken as an option for error response
 - Use a fork of Kadabra to fix ssl_error
+- Fix httpoison dependency not resolving 2.0
 
 ## v2.0.0-rc.1
 
