@@ -11,6 +11,7 @@ defmodule Pigeon.ADM.ResultParserTest do
     Pigeon.ADM.ResultParser.parse(n, %{"reason" => "InvalidExpiration"})
     Pigeon.ADM.ResultParser.parse(n, %{"reason" => "InvalidChecksum"})
     Pigeon.ADM.ResultParser.parse(n, %{"reason" => "InvalidType"})
+    Pigeon.ADM.ResultParser.parse(n, %{"reason" => "ExpiredToken"})
     Pigeon.ADM.ResultParser.parse(n, %{"reason" => "Unregistered"})
     Pigeon.ADM.ResultParser.parse(n, %{"reason" => "AccessTokenExpired"})
     Pigeon.ADM.ResultParser.parse(n, %{"reason" => "MessageTooLarge"})
