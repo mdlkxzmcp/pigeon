@@ -49,10 +49,10 @@ defmodule Pigeon.Mixfile do
       {:excoveralls, "~> 0.5", only: :test, runtime: false},
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false},
       {:goth, "~> 1.3.0"},
-      {:httpoison, "~> 0.7 or ~> 1.0 or ~> 2.0"},
+      {:httpoison, "~> 1.0 or ~> 2.0"},
       {:jason, "~> 1.0", optional: true},
       {:joken, "~> 2.1"},
-      {:kadabra, "~> 0.6.0"}
+      {:kadabra, github: "mdlkxzmcp/kadabra", tag: "v0.6.1"}
     ]
   end
 
