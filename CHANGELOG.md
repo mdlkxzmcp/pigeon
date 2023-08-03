@@ -11,6 +11,7 @@
 - Improve handling of FCM error responses
 - Use a fork of Kadabra to fix ssl_error
 - Fix httpoison dependency not resolving 2.0
+- Fix DispatcherWorker missing a clause for timeout
 
 ## v2.0.0-rc.1
 
