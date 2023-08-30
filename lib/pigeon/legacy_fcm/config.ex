@@ -23,7 +23,7 @@ defmodule Pigeon.LegacyFCM.Config do
       ...> )
       %Pigeon.LegacyFCM.Config{
         key: "fcm_key",
-        port: 5228, 
+        port: 5228,
         uri: 'test.server.example.com'
       }
   """

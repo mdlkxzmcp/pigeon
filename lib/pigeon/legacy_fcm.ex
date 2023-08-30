@@ -61,7 +61,7 @@ defmodule Pigeon.LegacyFCM do
 
     defp legacy_fcm_opts do
       [
-        adapter: Pigeon.LegacyFCM, 
+        adapter: Pigeon.LegacyFCM,
         key: "your_fcm_key_here"
       ]
     end
@@ -74,8 +74,8 @@ defmodule Pigeon.LegacyFCM do
   msg = %{"body" => "your message"}
   n = Pigeon.LegacyFCM.Notification.new("your device registration ID", msg)
   ```
-   
-  5. Send the notification. 
+
+  5. Send the notification.
 
   Pushes are synchronous and return the notification with
   updated `:status` and `:response` keys. If `:status` is success, `:response`

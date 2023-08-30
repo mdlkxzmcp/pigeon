@@ -75,11 +75,11 @@ defmodule Pigeon.FCM do
   ```
   n = Pigeon.FCM.Notification.new({:token, "reg ID"}, %{"body" => "test message"})
   ```
-   
-  5. Send the notification. 
 
-  On successful response, `:name` will be set to the name returned from the FCM 
-  API and `:response` will be `:success`. If there was an error, `:error` will 
+  5. Send the notification.
+
+  On successful response, `:name` will be set to the name returned from the FCM
+  API and `:response` will be `:success`. If there was an error, `:error` will
   contain a JSON map of the response and `:response` will be an atomized version
   of the error type.
 

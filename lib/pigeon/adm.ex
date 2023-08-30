@@ -62,8 +62,8 @@ defmodule Pigeon.ADM do
 
     defp adm_opts do
       [
-        adapter: Pigeon.ADM, 
-        client_id: "client_id", 
+        adapter: Pigeon.ADM,
+        client_id: "client_id",
         client_secret: "secret"
       ]
     end
