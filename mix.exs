@@ -46,13 +46,13 @@ defmodule Pigeon.Mixfile do
       {:credo, "~> 1.0", only: [:dev, :test], runtime: false},
       {:dialyxir, "~> 1.0", only: [:dev], runtime: false},
       {:earmark, "~> 1.0", only: :dev, runtime: false},
-      {:excoveralls, "~> 0.5", only: :test, runtime: false},
+      {:excoveralls, "~> 0.16.1", only: :test, runtime: false},
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false},
       {:goth, "~> 1.3.0"},
       {:httpoison, "~> 1.0 or ~> 2.0"},
-      {:jason, "~> 1.0", optional: true},
+      {:jason, "~> 1.4", optional: true},
       {:joken, "~> 2.1"},
-      {:kadabra, github: "mdlkxzmcp/kadabra", tag: "v0.6.1"}
+      {:kadabra, github: "mdlkxzmcp/kadabra", tag: "v0.7.0"}
     ]
   end
 
