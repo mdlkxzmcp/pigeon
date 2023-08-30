@@ -77,7 +77,7 @@ defmodule Pigeon.APNS.Config do
       %Pigeon.APNS.Config{
         cert: "test/support/FakeAPNSCert.pem" |> File.read!() |> Pigeon.APNS.Config.decode_pem(),
         key: "test/support/FakeAPNSKey.pem" |> File.read!() |> Pigeon.APNS.Config.decode_pem(),
-        ping_period: 300000, 
+        ping_period: 300000,
         port: 2197,
         uri: "api.push.apple.com"
       }

@@ -7,7 +7,7 @@ defmodule Pigeon.ConfigError do
     """
     #{reason}
 
-    The following configuration was given: 
+    The following configuration was given:
 
     #{inspect(config, pretty: true)}
     """
