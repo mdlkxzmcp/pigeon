@@ -7,7 +7,8 @@
 - Resolve APNS `:too_many_provider_token_updates` by moving token generation into
   `APNS.Token` ([#227](https://github.com/codedge-llc/pigeon/pull/227)).
 - Support HTTPoison 2.0. ([#236](https://github.com/codedge-llc/pigeon/pull/236))
-- Add ExpiredToken as an option for error response
+- Add ExpiredToken as an option for APNS error response
+- Improve handling of FCM error responses
 - Use a fork of Kadabra to fix ssl_error
 - Fix httpoison dependency not resolving 2.0
 
