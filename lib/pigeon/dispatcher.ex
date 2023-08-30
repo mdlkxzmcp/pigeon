@@ -111,6 +111,7 @@ defmodule Pigeon.Dispatcher do
     Supervisor.start_link(__MODULE__, opts, name: opts[:name])
   end
 
+  @impl Supervisor
   def init(opts) do
     opts =
       opts
