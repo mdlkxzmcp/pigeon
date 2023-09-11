@@ -18,8 +18,8 @@ defmodule Pigeon.DispatcherWorker do
       {:error, reason} ->
         {:error, reason}
 
-      {:stop, :timeout} ->
-        {:stop, :timeout}
+      {:stop, reason} ->
+        {:stop, reason}
     end
   end
 
